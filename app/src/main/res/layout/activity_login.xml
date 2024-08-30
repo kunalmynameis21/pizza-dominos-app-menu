@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".login_activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="130dp"
+        android:textSize="20dp"
+        android:textColor="#2196F3"
+        android:layout_marginTop="30dp"
+        android:text="Skip"/>
+
+    <ImageView
+        android:layout_width="58dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="160dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="122dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-30dp"
+        android:layout_marginRight="70dp"
+        android:text="Dominos"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="398dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/discount" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-10dp"
+            android:text="Personalised"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-68dp"
+            android:layout_marginTop="10dp"
+            android:text="Offers"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/pizz" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-10dp"
+            android:text="Loyality"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-38dp"
+            android:layout_marginTop="10dp"
+            android:text="Reword"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/operation" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-10dp"
+            android:text="Easy"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-28dp"
+            android:layout_marginTop="10dp"
+            android:text="Payment"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="-20dp"
+            android:textStyle="bold"
+            android:text="Login to unlock asesome benefits"/>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-0dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="366dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-130dp"
+            android:layout_marginTop="-62dp"
+            android:text="Mobile No"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="335dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:layout_marginTop="-13dp"
+            android:hint="+91 7519034248" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-60dp"
+        android:textSize="10dp"
+        android:layout_marginTop="280dp"
+        android:text="By going forword you accept"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-13dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#2196F3"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:text="Tern Condition"/>
+
+    <Button
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/otp"
+        android:layout_gravity="center"
+        android:text="Send opt"/>
+
+</LinearLayout>

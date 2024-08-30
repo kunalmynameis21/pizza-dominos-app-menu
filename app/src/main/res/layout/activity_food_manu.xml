@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".food_manu">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What are you creaving for ? "
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="97dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="-10dp"
+            android:src="@drawable/fullpizza"/>
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/fullpizza"/>
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/fullpizza"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="377dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/menu" />
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:text="Menu"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="125dp"
+            android:src="@drawable/pizza2" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:text="1+1 Offer"
+            android:layout_marginLeft="20dp"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="188dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#CFCACA"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="69dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="-110dp"
+            android:text="Congratulations on
+                                                                        winning Broze at
+                                                                        Olympics 2024 |"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:text="You made us proud manu Bhaker|"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Celebrate with us"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="-150dp"
+            android:src="@drawable/sports" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previously ordered item"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="@drawable/otp">
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="160dp"
+            android:src="@drawable/pixxa"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farmhouse"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="-20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customised"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-100dp"
+            android:textColor="#4CAF50"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 800"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="-90dp"
+            android:textColor="#4CAF50"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="85dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:id="@+id/dropdown_menu"
+
+            android:layout_marginLeft="130dp"
+            android:text="ADD" />
+    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Offers for you "
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="394dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#00BCD4" />
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

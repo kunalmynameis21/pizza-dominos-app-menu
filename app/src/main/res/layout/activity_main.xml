@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="49dp"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="OTP Verification                                                                                                 OTP has been send to +91-xxxxxxx " />
+
+        <TextView
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-86dp"
+            android:layout_marginTop="20dp"
+            android:text="change"
+            android:textSize="13dp"
+            android:textColor="#2196F3" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+
+            android:inputType="number"
+            android:layout_width="49dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:background="@drawable/otp" />
+
+        <EditText
+            android:layout_width="47dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:inputType="number"
+
+            android:background="@drawable/otp" />
+
+        <EditText
+            android:layout_width="51dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:inputType="number"
+
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/otp" />
+
+        <EditText
+            android:layout_width="52dp"
+            android:layout_height="77dp"
+            android:inputType="number"
+
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/otp" />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="77dp"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/otp" />
+    </LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:text="trying to auto read your otp "
+    android:textSize="15dp"
+    android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend OPT in 44s"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/login"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#D7D7D9"
+        android:text="LOGIN"/>
+
+
+
+
+</LinearLayout>
